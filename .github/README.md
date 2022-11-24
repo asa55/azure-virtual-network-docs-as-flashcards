@@ -1,5 +1,9 @@
 # azure-virtual-network-docs-as-flashcards
 
+## Project status update 2022.11.24
+
+This project is pre-release. Working on adding content currently, please check back soon. You'll know this is ready when I apply a release tag. Instructions on how to access the built content will be provided.
+
 ## What this repository does
 
 This repository contains (1) Markdown files and (2) a GitHub Actions workflow definition that converts Markdown into an Anki-compatible flashcard deck. The build process can be triggered manually under the Actions tab, and generates a single build artifact, a `.apkg` file that you can import directly into Anki.

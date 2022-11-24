@@ -1,4 +1,4 @@
-# azure-vnet-docs-as-flashcards
+# azure-virtual-network-docs-as-flashcards
 
 ## What this repository does
 

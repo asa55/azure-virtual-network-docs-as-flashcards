@@ -1,4 +1,6 @@
-###### What is the cost associated with using Azure VNet?
+######
+
+What is the cost associated with using Azure VNet?
 
 %
 

@@ -1,10 +1,14 @@
-###### Are there limits to the number of Azure resources you can deploy?
+######
+
+Are there limits to the number of Azure resources you can deploy?
 
 %
 
 Yes
 
-###### How can you increase Azure networking limits?
+######
+
+How can you increase Azure networking limits?
 
 %
 

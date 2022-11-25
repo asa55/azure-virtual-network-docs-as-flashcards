@@ -1,10 +1,14 @@
-###### Do VNets and subnets span all availability zones in a region?
+######
+
+Do VNets and subnets span all availability zones in a region?
 
 %
 
 Yes
 
-###### Do you need to divide VNets and subnets by availability zones to accommodate zonal resources? Provide an example.
+######
+
+Do you need to divide VNets and subnets by availability zones to accommodate zonal resources? Provide an example.
 
 %
 

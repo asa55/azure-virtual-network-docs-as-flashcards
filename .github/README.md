@@ -1,8 +1,8 @@
 # azure-virtual-network-docs-as-flashcards
 
-## Project status update 2022.11.24
+## Project status update 2022.11.25
 
-This project is pre-release. Working on adding content currently, please check back soon. [Project status is tracked here](https://github.com/users/asa55/projects/3). You'll know this is ready when I apply a release tag. Instructions on how to access the built content will be provided.
+The initial release is now available, instructions to [download the Anki flashcard deck can be found by clicking here](https://github.com/asa55/azure-virtual-network-docs-as-flashcards/releases/tag/v2022.11.25), or by navigating to the Releases area of this project. To see what content will be added in the future, check out this project's Roadmap. [Project status is tracked here](https://github.com/users/asa55/projects/3). 
 
 ## What this repository does
 

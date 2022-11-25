@@ -1,4 +1,4 @@
-# azure-virtual-network-docs-as-flashcards v2022.11.01 by asa55
+# azure-virtual-network-docs-as-flashcards v2022.11.25 by asa55
 
 ###### URL from which these flashcards are derived
 

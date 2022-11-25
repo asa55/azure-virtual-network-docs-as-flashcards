@@ -2,7 +2,7 @@
 
 ## Project status update 2022.11.24
 
-This project is pre-release. Working on adding content currently, please check back soon. You'll know this is ready when I apply a release tag. Instructions on how to access the built content will be provided.
+This project is pre-release. Working on adding content currently, please check back soon. [Project status is tracked here](https://github.com/users/asa55/projects/3) You'll know this is ready when I apply a release tag. Instructions on how to access the built content will be provided.
 
 ## What this repository does
 

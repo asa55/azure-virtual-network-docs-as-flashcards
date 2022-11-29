@@ -1,6 +1,6 @@
 ######
 
-Official abbreviation for Azure Virtual Network
+The abbreviation for Azure Virtual Network is
 
 %
 
@@ -8,19 +8,17 @@ VNet
 
 ######
 
-What is Azure Virtual Network the fundamental building block of?
+Azure Virtual Network the fundamental building block of
 
 %
 
-Your private network in Azure
+your private network in Azure
 
 #####
 
-What does Azure virtual network enable Azure resources to do?
+Azure virtual network enables Azure resources to securely communicate with
 
 %
-
-Securely communicate with:
 
 - Each other
 - The internet
@@ -28,19 +26,17 @@ Securely communicate with:
 
 ######
 
-What traditional alternative is VNet similar to?
+VNets are similar to
 
 %
 
-A network that you'd operate in your own data center
+a traditional network that you'd operate in your own data center
 
 ######
 
-What advantages does VNet offer over a network you'd operate in your own data center?
+VNet offers additional benefits of Azure's infrastructure over a network you'd operate in your own data center such as
 
 %
-
-VNet brings with it additional benefits of Azure's infrastructure such as:
 
 - Scale
 - Availability
@@ -48,7 +44,7 @@ VNet brings with it additional benefits of Azure's infrastructure such as:
 
 ######
 
-What are key scenarios you can accomplish with a virtual network?
+Key scenarios you can accomplish with a virtual network include
 
 %
 
@@ -61,52 +57,50 @@ What are key scenarios you can accomplish with a virtual network?
 
 ######
 
-Can resources in a VNet communicate to the internet by default?
+`_____` resources in a VNet can communicate `_____` to the internet, by default
 
 %
 
-All resources in a VNet can communicate **outbound** to the internet, by default
+**All** resources in a VNet can communicate **outbound** to the internet, by default
 
 ######
 
-How to communicate inbound from the internet to a resource in a VNet?
+To communicate inbound from the internet to a resource in a VNet, assign
 
 %
 
-Assign a public IP adress or a public Load Balancer
+a public IP address or a public Load Balancer
 
 ######
 
-How to manage outbound connections from a VNet to the internet?
+To manage outbound connections from a VNet to the internet, you can use
 
 %
 
-You can use public IP or public Load Balancer to manage outbound connections
+a public IP address or public Load Balancer
 
 ######
 
-What condition must be met to enable outbound connectivity to the internet when using only an internal Standard Load Balancer?
+Outbound connectivity to the internet when using only an internal Standard Load Balancer is not available until you define how you want outbound connections to work with:
 
 %
-
-Outbound connectivity is not available until you define how you want outbound connections to work with:
 
 - An instance-level public IP or
 - a public Load Balancer
 
 ######
 
-List the ways in which Azure resources can communicate securely with each other
+Azure resources can communicate securely with each other through
 
 %
 
-- Through a VNet
-- Through a VNet service endpoint
-- Through VNet Peering
+- a VNet
+- a VNet service endpoint
+- VNet Peering
 
 ######
 
-List the ways in which you can connect your on-premises resources to a VNet
+You can connect your on-premises resources to a VNet with
 
 %
 
@@ -116,11 +110,11 @@ List the ways in which you can connect your on-premises resources to a VNet
 
 ######
 
-List features of connecting on-premises resources to a VNet using point-to-site VPN
+Connecting on-premises resources to a VNet using point-to-site VPN means
 
 %
 
-- Established between a VNet and a single computer in your network
+- Establishing a connection between a VNet and a single computer in your network
 - Each computer that wants to establish connectivity with a VNet must configure its connection
 - Communication between your computer and a VNet is sent through an encrypted tunnel over the internet
 - Requires little or no changes to existing network
@@ -130,27 +124,27 @@ List features of connecting on-premises resources to a VNet using point-to-site 
 
 ######
 
-List features of connecting on-premises resources to a VNet using site-to-site VPN
+Connecting on-premises resources to a VNet using site-to-site VPN means
 
 %
 
-- Established between your on-premises VPN device and an Azure VPN Gateway deployed within a VNet
+- Establishing a connection between your on-premises VPN device and an Azure VPN Gateway deployed within a VNet
 - Enables any on-premises resource that you authorize to access a VNet
 - Communication between your on-premises VPN device and an Azure VPN gateway is sent through an encrypted tunnel over the internet
 
 ######
 
-List features of connecting on-premises resources to a VNet using Azure ExpressRoute
+Connecting on-premises resources to a VNet using Azure ExpressRoute means
 
 %
 
-- Established between your network and Azure, through an ExpressRoute partner
+- Establishing a connection between your network and Azure, through an ExpressRoute partner
 - Connection is private
-  - Traffic does not go over the internet
+- Traffic does not go over the internet
 
 ######
 
-List the ways in which you can filter network traffic between subnets
+You can filter network traffic between subnets using
 
 %
 
@@ -159,11 +153,9 @@ List the ways in which you can filter network traffic between subnets
 
 ######
 
-List features of using network security groups to filter network traffic between subnets
+Network security groups (and application security groups) can contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by
 
 %
-
-Network security groups (and application security groups) can contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by:
 
 - source IP address
 - destination IP address
@@ -172,11 +164,9 @@ Network security groups (and application security groups) can contain multiple i
 
 ######
 
-What is a Network Virtual Appliance (NVA)?
+A Network Virtual Appliance (NVA) is a VM that performs a network function, such as
 
 %
-
-A network virtual appliance is a VM that performs a network function, such as:
 
 - a firewall
 - a WAN optimization
@@ -184,7 +174,7 @@ A network virtual appliance is a VM that performs a network function, such as:
 
 ######
 
-Where can you find a list of available network virtual appliances that you can deploy in a virtual network?
+A list of available network virtual appliances that you can deploy in a virtual network can be found in
 
 %
 
@@ -192,18 +182,18 @@ Azure Marketplace
 
 ######
 
-What does Azure route traffic between, by default?
+By default, Azure routes traffic between
 
 %
 
-- Between subnets
+- Subnets
 - Connected VNets
 - Connected on-premises networks
 - the internet
 
 ######
 
-List your options to override the default routes created by Azure
+To override the default routes created by Azure, you can use
 
 %
 
@@ -213,15 +203,15 @@ List your options to override the default routes created by Azure
 
 ######
 
-What does integrating Azure services into an Azure VNet enable?
+Integrating Azure services into an Azure VNet enables
 
 %
 
-Private access to the service from VMs or compute resources in the VNet
+private access to the service from VMs or compute resources in the VNet
 
 ######
 
-List the ways in which you can integrate Azure services in your virtual network
+To integrate Azure services in your virtual network, you can
 
 %
 

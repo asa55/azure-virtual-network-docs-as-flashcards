@@ -1,14 +1,15 @@
-# azure-virtual-network-docs-as-flashcards v2022.11.25 by asa55
+# asa55 Azure Virtual Network Docs
 
-###### URL from which these flashcards are derived
+######
 
-% 
+**Metadata**
 
-[learn.microsoft.com/azure/virtual-network](learn.microsoft.com/azure/virtual-network)
-
-###### How to locate / update this flashcard deck
+- The flashcards in this deck are derived from the following URL: [learn.microsoft.com/azure/virtual-network](learn.microsoft.com/azure/virtual-network)
+- Search `asa55` on Anki shared decks to check for an updated version, or alternatively
+  - Navigate to [`github.com/asa55/azure-virtual-network-docs-as-flashcards`](https://github.com/asa55/azure-virtual-network-docs-as-flashcards) to see the latest version
 
 %
 
-- Search `asa55` on Anki shared decks to check for an updated version, or alternatively
-- Navigate to [`github.com/asa55/azure-virtual-network-docs-as-flashcards`](https://github.com/asa55/azure-virtual-network-docs-as-flashcards) to see the latest version
+Thanks for downloading, and good luck on your learning journey!
+
+(_You may delete this note or keep it handy for future reference_)

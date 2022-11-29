@@ -1,15 +1,15 @@
 ######
 
-Are there limits to the number of Azure resources you can deploy?
+The number of Azure resources you can deploy is
 
 %
 
-Yes
+limited
 
 ######
 
-How can you increase Azure networking limits?
+By default, all Azure networking limits are set to their
 
 %
 
-All default limits are set to their maximum limits. For support, open an online customer support request
+maximum

@@ -1,10 +1,10 @@
 ##
 
-Virtual Network NAT (network address translation) simplifies `_____` for virtual networks.
+Virtual Network NAT (network address translation) simplifies outbound-only Internet connectivity for
 
 %
 
-Virtual Network NAT (network address translation) simplifies **outbound-only Internet connectivity** for virtual networks.
+virtual networks
 
 ##
 
@@ -16,11 +16,11 @@ When Virtual Network NAT is configured on a subnet, all outbound connectivity us
 
 ##
 
-With Azure Virtual Network NAT, outbound connectivity is possible without load balancer or public IP addresses directly attached to `_____`.
+With Azure Virtual Network NAT, outbound connectivity is possible without load balancer or public IP addresses directly attached to
 
 %
 
-With Azure Virtual Network NAT, outbound connectivity is possible without load balancer or public IP addresses directly attached to **virtual machines**.
+virtual machines
 
 ##
 
@@ -67,15 +67,15 @@ List the methods that you can use to create a NAT gateway resource
 
 ##
 
-When creating a NAT gateway resource in the Azure portal, Azure creates a `_____`, `_____`, `_____`, `_____`, and a `_____` to test the NAT gateway resource.
+When creating a NAT gateway resource in the Azure portal, Azure creates a `_____`, `_____`, `_____`, NAT gateway, and a `_____` to test the NAT gateway resource.
 
 %
 
-When creating a NAT gateway resource in the Azure portal, Azure creates a **virtual network**, **subnet**, **public IP**, **NAT gateway**, and a **virtual machine** to test the NAT gateway resource.
+When creating a NAT gateway resource in the Azure portal, Azure creates a **VNet**, **subnet**, **public IP**, NAT gateway, and a **VM** to test the NAT gateway resource.
 
 ##
 
-When creating a NAT gateway resource with Azure PowerShell, use `_____` to create a NAT gateway resource. Creates a virtual network, subnet, public IP, NAT gateway, and a virtual machine to test the NAT gateway resource.
+When creating a NAT gateway resource with Azure PowerShell, use <u>**New-**</u>`_____` to create a NAT gateway resource. Creates a virtual network, subnet, public IP, NAT gateway, and a virtual machine to test the NAT gateway resource.
 
 %
 
@@ -83,7 +83,7 @@ When creating a NAT gateway resource with Azure PowerShell, use `New-AzNatGatewa
 
 ##
 
-When creating a NAT gateway resource with Azure CLI, use `_____` to create a NAT gateway resource. Creates a virtual network, subnet, public IP, NAT gateway, and a virtual machine to test the NAT gateway resource.
+When creating a NAT gateway resource with Azure CLI, use <u>**az**</u>`_____` to create a NAT gateway resource. Creates a virtual network, subnet, public IP, NAT gateway, and a virtual machine to test the NAT gateway resource.
 
 %
 

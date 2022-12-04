@@ -131,7 +131,7 @@ If you want to allow any other inbound traffic to the VM, create another **rule 
 
 ##
 
-When creating a NSG with Azure PowerShell, use `_____` and provide the required rule information. Use `_____` to create the NSG. Use `_____` to configure the NSG for the subnet. Use `_____` to add the NSG to the virtual network.
+When creating a NSG with Azure PowerShell, use <u>**New-**</u>`_____` and provide the required rule information. Use <u>**New-**</u>`_____` to create the NSG. Use <u>**Set-**</u>`_____` to configure the NSG for the subnet. Use <u>**Set-**</u>`_____` to add the NSG to the virtual network.
 
 %
 
@@ -139,7 +139,7 @@ When creating a Network Security Group (NSG) with Azure PowerShell, use `New-AzN
 
 ##
 
-When creating a Network Security Group (NSG) with Azure CLI, use `_____` to initially create the NSG. Use `_____` to add rules to the NSG. Use `_____` to add the NSG to the subnet.
+When creating a Network Security Group (NSG) with Azure CLI, use <u>**az**</u>`_____` to initially create the NSG. Use <u>**az**</u>`_____` to add rules to the NSG. Use <u>**az**</u>`_____` to add the NSG to the subnet.
 
 %
 

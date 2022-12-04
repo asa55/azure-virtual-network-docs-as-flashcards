@@ -57,11 +57,11 @@ Key scenarios you can accomplish with a virtual network include
 
 ##
 
-`_____` resources in a VNet can communicate `_____` to the internet, by default
+By default, all resources in a VNet can communicate outbound to
 
 %
 
-**All** resources in a VNet can communicate **outbound** to the internet, by default
+the internet
 
 ##
 
@@ -110,37 +110,76 @@ You can connect your on-premises resources to a VNet with
 
 ##
 
-Connecting on-premises resources to a VNet using point-to-site VPN means
+Connecting on-premises resources to a VNet using point-to-site VPN means establishing a connection between a VNet and a `_____` in your network.
 
 %
 
-- Establishing a connection between a VNet and a single computer in your network
-- Each computer that wants to establish connectivity with a VNet must configure its connection
-- Communication between your computer and a VNet is sent through an encrypted tunnel over the internet
-- Requires little or no changes to existing network
-  - This makes point-to-site VPN well suited for
-    - Developers
-    - Getting started with Azure
+Connecting on-premises resources to a VNet using point-to-site VPN means establishing a connection between a VNet and a **single computer** in your network.
 
 ##
 
-Connecting on-premises resources to a VNet using site-to-site VPN means
+When connecting on-premises resources to a VNet using point-to-site VPN, each computer that wants to establish connectivity with a VNet must
 
 %
 
-- Establishing a connection between your on-premises VPN device and an Azure VPN Gateway deployed within a VNet
-- Enables any on-premises resource that you authorize to access a VNet
-- Communication between your on-premises VPN device and an Azure VPN gateway is sent through an encrypted tunnel over the internet
+configure its connection
 
 ##
 
-Connecting on-premises resources to a VNet using Azure ExpressRoute means
+When connecting on-premises resources to a VNet using point-to-site VPN, communication between your computer and a VNet is sent through an encrypted tunnel over
 
 %
 
-- Establishing a connection between your network and Azure, through an ExpressRoute partner
-- Connection is private
-- Traffic does not go over the internet
+the internet
+
+##
+
+Connecting on-premises resources to a VNet using point-to-site VPN requires little or no changes to existing network, making point-to-site VPN well suited for
+
+%
+
+- Developers
+- Getting started with Azure
+
+##
+
+Connecting on-premises resources to a VNet using site-to-site VPN means establishing a connection between your on-premises VPN device and an Azure VPN Gateway deployed within
+
+%
+
+a VNet
+
+##
+
+Connecting on-premises resources to a VNet using site-to-site VPN enables any on-premises resource that you authorize to access
+
+%
+
+a VNet
+
+##
+
+When connecting on-premises resources to a VNet using site-to-site VPN, communication between your on-premises VPN device and an Azure VPN gateway is sent through an encrypted tunnel over
+
+%
+
+the internet
+
+##
+
+Connecting on-premises resources to a VNet using Azure ExpressRoute means establishing a connection between your network and Azure, through
+
+%
+
+an ExpressRoute partner
+
+##
+
+When connecting on-premises resources to a VNet using Azure ExpressRoute, the connection is private. Traffic does not go over
+
+%
+
+the internet
 
 ##
 
@@ -203,11 +242,11 @@ To override the default routes created by Azure, you can use
 
 ##
 
-Integrating Azure services into an Azure VNet enables
+Integrating Azure services into an Azure VNet enables `_____` to the service from VMs or compute resources in the VNet.
 
 %
 
-private access to the service from VMs or compute resources in the VNet
+Integrating Azure services into an Azure VNet enables **private access** to the service from VMs or compute resources in the VNet.
 
 ##
 
@@ -215,6 +254,6 @@ To integrate Azure services in your virtual network, you can
 
 %
 
-- Deploy dedicated instances of the service into a VNet, to privately access the service within the VNet and from on-premises networks
-- Private Link can privately access a specific instance of the service from your VNet and from on-premises networks
-- Service Endpoints can use public endpoints by extending a VNet to the service
+- Deploy dedicated instances of the service into a VNet
+- USe Private Link
+- Use Service Endpoints

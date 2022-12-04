@@ -9,19 +9,35 @@ You can assign these types of IP addresses to a network interface in Azure:
 
 ##
 
-Public IP addresses are used to communicate inbound and outbound (**without** network address translation (NAT)) with the Internet and other Azure resources not connected to a virtual network. Assigning a public IP address to a NIC is **optional**. Public IP addresses have a nominal **charge**, and there's a maximum number that can be used per **subscription**.
+Public IP addresses are used to communicate inbound and outbound (without network address translation (NAT)) with the Internet and other Azure resources not connected to a
 
 %
 
-Public IP addresses are used to communicate inbound and outbound (`_____` network address translation (NAT)) with the Internet and other Azure resources not connected to a virtual network. Assigning a public IP address to a NIC is `_____`. Public IP addresses have a nominal `_____`, and there's a maximum number that can be used per `_____`.
+virtual network
 
 ##
 
-Private IP addresses are used for communication within a virtual network, your on-premises network, and the Internet (`_____` NAT). At least `_____` private IP address must be assigned to a VM. 
+Assigning a public IP address to a NIC is
 
 %
 
-Private IP addresses are used for communication within a virtual network, your on-premises network, and the Internet (**with** NAT). At least **one** private IP address must be assigned to a VM. 
+optional
+
+##
+
+Public IP addresses have a nominal charge, and there's a maximum number that can be used per
+
+%
+
+subscription
+
+##
+
+`_____` IP addresses are used for communication within a virtual network, your on-premises network, and the Internet (with NAT). At least one private IP address must be assigned to a VM. 
+
+%
+
+**Private** IP addresses are used for communication within a virtual network, your on-premises network, and the Internet (with NAT). At least one private IP address must be assigned to a VM. 
 
 ##
 
@@ -104,11 +120,11 @@ dynamic
 
 ##
 
-Dynamic public IP addresses may change when the VM is `_____` or `_____`.
+Dynamic public IP addresses may change when the VM is
 
 %
 
-Dynamic public IP addresses may change when the VM is **stopped** or **deleted**.
+stopped or deleted
 
 ##
 
@@ -128,7 +144,7 @@ By default, the Azure portal assigns a **dynamic private IP address** to a NIC w
 
 ##
 
-When creating an IP address with Azure PowerShell, you use `_____` with the `_____` parameter as Dynamic or Static.
+When creating an IP address with Azure PowerShell, you use <u>**New-**</u>`_____` with the <u>**-**</u>`_____` parameter as Dynamic or Static.
 
 %
 
@@ -136,7 +152,7 @@ When creating an IP address with Azure PowerShell, you use `New-AzPublicIpAddres
 
 ##
 
-When creating an IP address with Azure CLI, you use `_____` with the `_____` parameter as Dynamic or Static.
+When creating an IP address with Azure CLI, you use <u>**az**</u>`_____` with the <u>**--**</u>`_____` parameter as Dynamic or Static.
 
 %
 

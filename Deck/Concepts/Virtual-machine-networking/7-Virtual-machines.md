@@ -75,7 +75,7 @@ use a different method
 
 ##
 
-When creating a VM in a VNet with Azure PowerShell, use <u>**Add-**</u>`_____` to add a previously created NIC to the VM configuration.
+When creating a VM in a VNet with Azure PowerShell, use `Add-_____` to add a previously created NIC to the VM configuration.
 
 %
 

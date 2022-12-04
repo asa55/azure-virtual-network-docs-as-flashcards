@@ -89,7 +89,7 @@ List the methods that you can use to create an internet-facing load balancer
 
 ##
 
-When creating an internet-facing load balancer with Azure PowerShell, to provide the identifier of the public IP address that you previously created, use <u>**New-**</u>`_____` with the <u>**-**</u>`_____` parameter. Use <u>**New-**</u>`_____` to create the configuration of the back-end address pool. Use <u>**New-**</u>`_____` to create inbound NAT rules associated with the front-end IP configuration that you created. Use <u>**New-**</u>`_____` to create the probes that you need. Use <u>**New-**</u>`_____` to create the load balancer configuration. Use <u>**New-**</u>`_____` to create the load balancer.
+When creating an internet-facing load balancer with Azure PowerShell, to provide the identifier of the public IP address that you previously created, use `New-_____` with the `-_____` parameter. Use `New-_____` to create the configuration of the back-end address pool. Use `New-_____` to create inbound NAT rules associated with the front-end IP configuration that you created. Use `New-_____` to create the probes that you need. Use `New-_____` to create the load balancer configuration. Use `New-_____` to create the load balancer.
 
 %
 
@@ -97,7 +97,7 @@ When creating an internet-facing load balancer with Azure PowerShell, to provide
 
 ##
 
-When creating an internet-facing load balancer with Azure CLI, use <u>**az**</u>`_____` to create the initial load balancer configuration. Use <u>**az**</u>`_____` to add the public IP address that you previously created. Use <u>**az**</u>`_____` to add the configuration of the back-end address pool. Use <u>**az**</u>`_____` to add NAT rules. Use <u>**az**</u>`_____` to add the load balancer rules. Use <u>**az**</u>`_____` to add the probes.
+When creating an internet-facing load balancer with Azure CLI, use `az_____` to create the initial load balancer configuration. Use `az_____` to add the public IP address that you previously created. Use `az_____` to add the configuration of the back-end address pool. Use `az_____` to add NAT rules. Use `az_____` to add the load balancer rules. Use `az_____` to add the probes.
 
 %
 
@@ -116,7 +116,7 @@ List the methods that you can use to create an internal load balancer
 
 ##
 
-When creating an internet-facing load balancer with Azure PowerShell, to provide a private IP address in the network subnet, use <u>**New-**</u>`_____` with the <u>**-**</u>`_____` parameter. Use <u>**New-**</u>`_____` to create the configuration of the back-end address pool. Use <u>**New-**</u>`_____` to create inbound NAT rules associated with the front-end IP configuration that you created. Use <u>**New-**</u>`_____` to create the probes that you need. Use <u>**New-**</u>`_____` to create the load balancer configuration. Use <u>**New-**</u>`_____` to create the load balancer.
+When creating an internet-facing load balancer with Azure PowerShell, to provide a private IP address in the network subnet, use `New-_____` with the `-_____` parameter. Use `New-_____` to create the configuration of the back-end address pool. Use `New-_____` to create inbound NAT rules associated with the front-end IP configuration that you created. Use `New-_____` to create the probes that you need. Use `New-_____` to create the load balancer configuration. Use `New-_____` to create the load balancer.
 
 %
 
@@ -124,7 +124,7 @@ When creating an internet-facing load balancer with Azure PowerShell, to provide
 
 ##
 
-When creating an internet-facing load balancer with Azure CLI, use the <u>**az**</u>`_____` command to create the initial load balancer configuration. To define the private IP address, use <u>**az**</u>`_____` with the <u>**--**</u>`_____` parameter. Use <u>**az**</u>`_____` to add the configuration of the back-end address pool. Use <u>**az**</u>`_____` to add NAT rules. Use <u>**az**</u>`_____` to add the load balancer rules. Use `_____` to add the probes.
+When creating an internet-facing load balancer with Azure CLI, use the `az_____` command to create the initial load balancer configuration. To define the private IP address, use `az_____` with the `--_____` parameter. Use `az_____` to add the configuration of the back-end address pool. Use `az_____` to add NAT rules. Use `az_____` to add the load balancer rules. Use `_____` to add the probes.
 
 %
 

@@ -144,7 +144,7 @@ By default, the Azure portal assigns a **dynamic private IP address** to a NIC w
 
 ##
 
-When creating an IP address with Azure PowerShell, you use <u>**New-**</u>`_____` with the <u>**-**</u>`_____` parameter as Dynamic or Static.
+When creating an IP address with Azure PowerShell, you use `New-_____` with the `-_____` parameter as Dynamic or Static.
 
 %
 
@@ -152,7 +152,7 @@ When creating an IP address with Azure PowerShell, you use `New-AzPublicIpAddres
 
 ##
 
-When creating an IP address with Azure CLI, you use <u>**az**</u>`_____` with the <u>**--**</u>`_____` parameter as Dynamic or Static.
+When creating an IP address with Azure CLI, you use `az_____` with the `--_____` parameter as Dynamic or Static.
 
 %
 

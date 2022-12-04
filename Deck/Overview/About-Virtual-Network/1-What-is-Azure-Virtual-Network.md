@@ -255,5 +255,5 @@ To integrate Azure services in your virtual network, you can
 %
 
 - Deploy dedicated instances of the service into a VNet
-- USe Private Link
+- Use Private Link
 - Use Service Endpoints

@@ -24,9 +24,11 @@ deployment or startup
 
 ##
 
-Virtual machines are assigned an IP address when %
+Virtual machines are assigned an IP address when they're
 
-they're deployed
+%
+
+deployed
 
 ##
 
@@ -65,15 +67,15 @@ List the methods that you can use to create a VM in a VNet
 
 ##
 
-When creating a VM in a VNet in the Azure portal, Azure uses default network settings to create a VM with a single NIC. To create a VM with multiple NICs, you must `_____`.
+When creating a VM in a VNet in the Azure portal, Azure uses default network settings to create a VM with a single NIC. To create a VM with multiple NICs, you must
 
 %
 
-When creating a VM in a VNet in the Azure portal, Azure uses default network settings to create a VM with a single NIC. To create a VM with multiple NICs, you must **use a different method**.
+use a different method
 
 ##
 
-When creating a VM in a VNet with Azure PowerShell, use `_____` to add a previously created NIC to the VM configuration.
+When creating a VM in a VNet with Azure PowerShell, use <u>**Add-**</u>`_____` to add a previously created NIC to the VM configuration.
 
 %
 

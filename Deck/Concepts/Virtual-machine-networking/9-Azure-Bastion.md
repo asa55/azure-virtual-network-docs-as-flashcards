@@ -47,7 +47,7 @@ When creating an Azure Bastion deployment in the  Azure portal, Azure creates
 
 ##
 
-When creating an Azure Bastion deployment with Azure PowerShell, use `_____` to create the bastion host.
+When creating an Azure Bastion deployment with Azure PowerShell, use <u>**New-**</u>`_____` to create the bastion host.
 
 %
 
@@ -55,7 +55,7 @@ When creating an Azure Bastion deployment with Azure PowerShell, use `New-AzBast
 
 ##
 
-When creating an Azure Bastion deployment with Azure CLI, use `_____` to create the bastion host.
+When creating an Azure Bastion deployment with Azure CLI, use <u>**az**</u>`_____` to create the bastion host.
 
 %
 

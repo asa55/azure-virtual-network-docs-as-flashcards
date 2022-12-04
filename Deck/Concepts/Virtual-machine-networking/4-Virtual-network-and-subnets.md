@@ -89,7 +89,7 @@ If you let Azure create a virtual network when you create a VM in Azure portal, 
 
 ##
 
-When creating a VNet and subnets in Azure PowerShell, you use `_____` and `_____` to create a subnet and a virtual network. You can also use `_____` to add a subnet to an existing virtual network.
+When creating a VNet and subnets in Azure PowerShell, you use <u>**New-**</u>`_____` and <u>**New-**</u>`_____` to create a subnet and a virtual network. You can also use <u>**Add-**</u>`_____` to add a subnet to an existing virtual network.
 
 %
 
@@ -97,7 +97,7 @@ When creating a VNet and subnets with Azure PowerShell, you use `New-AzVirtualNe
 
 ##
 
-When creating a VNet and subnets with Azure CLI, the subnet and the virtual network are created at the same time. Provide a `_____` parameter to `_____` with the subnet name.
+When creating a VNet and subnets with Azure CLI, the subnet and the virtual network are created at the same time. Provide a <u>**--**</u>`_____` parameter to <u>**az**</u>`_____` with the subnet name.
 
 %
 

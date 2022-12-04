@@ -40,11 +40,11 @@ Each NIC must be connected to a VNet that exists in the same Azure **location** 
 
 ##
 
-You `_____` change the subnet a VM is connected to after it's created. You `_____` change the virtual network. 
+You can change the subnet a VM is connected to after it's created. You can't change the
 
 %
 
-You **can** change the subnet a VM is connected to after it's created. You **can't** change the virtual network. 
+virtual network
 
 ##
 
@@ -91,7 +91,7 @@ create it with a different method
 
 ##
 
-When you create a VM with Azure PowerShell, use `_____` with the `_____` parameter to provide the identifier of the public IP address that you previously created.
+When you create a VM with Azure PowerShell, use <u>**New-**</u>`_____` with the <u>**-**</u>`_____` parameter to provide the identifier of the public IP address that you previously created.
 
 %
 
@@ -99,8 +99,8 @@ When you create a VM with Azure PowerShell, use `New-AzNetworkInterface` with th
 
 ##
 
-When you create a VM with Azure CLI, to provide the identifier of the public IP address that you previously created, use `az network nic create` with the `--public-ip-address` parameter.
+When you create a VM with Azure CLI, to provide the identifier of the public IP address that you previously created, use <u>**az**</u>`_____` with the <u>**--**</u>`_____` parameter.
 
 %
 
-When you create a VM with Azure CLI, to provide the identifier of the public IP address that you previously created, use `_____` with the `_____` parameter.
+When you create a VM with Azure CLI, to provide the identifier of the public IP address that you previously created, use `az network nic create` with the `--public-ip-address` parameter.

@@ -11,19 +11,19 @@ VNet concepts include
 
 ##
 
-When creating a VNet, you must specify a custom private IP address space using
+When creating a VNet, you must specify a custom private IP address space using public and private (RFC `_____`) addresses.
 
 %
 
-public and private (RFC 1918) addresses.
+When creating a VNet, you must specify a custom private IP address space using public and private (RFC **1918**) addresses.
 
 ##
 
-Azure assigns resources in a virtual network a private IP address from
+Azure assigns resources in a virtual network a private IP address from the address space that 
 
 %
 
-the address space that you assign.
+you assign
 
 ##
 
@@ -35,19 +35,19 @@ each subnet
 
 ##
 
-Just like in a traditional network, subnets allow you to segment your VNet address space into
+Just like in a traditional network, subnets allow you to segment your VNet address space into segments that are appropriate for the organization's
 
 %
 
-segments that are appropriate for the organization's internal network
+internal network
 
 ##
 
-Address allocation efficiency is improved by
+Subnets improve address allocation
 
 %
 
-subnets
+efficiency
 
 ##
 
@@ -59,11 +59,11 @@ Network Security Groups (NSGs)
 
 ##
 
-VNet is scoped to a single (geographical)
+VNet is scoped to a single `_____` and a single `_____`.
 
 %
 
-region/location
+VNet is scoped to a single **region/location** and a single **subscription**.
 
 ##
 
@@ -72,14 +72,6 @@ Multiple virtual networks from different regions can be connected together using
 %
 
 Virtual Network Peering
-
-##
-
-VNet is scoped to a (billing)
-
-%
-
-subscription
 
 ##
 

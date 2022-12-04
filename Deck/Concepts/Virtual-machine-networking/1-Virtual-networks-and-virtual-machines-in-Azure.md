@@ -16,15 +16,26 @@ It's important to **plan** before creating resources and make sure you understan
 
 ##
 
-You can create a virtual network **before** you create a virtual machine or
+You can create a virtual network before you create a virtual machine or you can create the virtual network `_____` you create a virtual machine.
 
 %
 
-you can create the virtual network **as** you create a virtual machine
+You can create a virtual network before you create a virtual machine or you can create the virtual network **as** you create a virtual machine.
 
 ##
 
-You create these resources to support communication with a virtual machine (required and optional):
+Create these resources to support communication with a virtual machine:
+
+Required:
+
+- `_____`
+- `_____`
+- `_____`
+
+Optional:
+
+- `_____`
+- `_____`
 
 %
 

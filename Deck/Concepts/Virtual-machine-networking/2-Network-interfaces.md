@@ -91,7 +91,7 @@ create it with a different method
 
 ##
 
-When you create a VM with Azure PowerShell, use <u>**New-**</u>`_____` with the <u>**-**</u>`_____` parameter to provide the identifier of the public IP address that you previously created.
+When you create a VM with Azure PowerShell, use `New-_____` with the `-_____` parameter to provide the identifier of the public IP address that you previously created.
 
 %
 
@@ -99,7 +99,7 @@ When you create a VM with Azure PowerShell, use `New-AzNetworkInterface` with th
 
 ##
 
-When you create a VM with Azure CLI, to provide the identifier of the public IP address that you previously created, use <u>**az**</u>`_____` with the <u>**--**</u>`_____` parameter.
+When you create a VM with Azure CLI, to provide the identifier of the public IP address that you previously created, use `az_____` with the `--_____` parameter.
 
 %
 

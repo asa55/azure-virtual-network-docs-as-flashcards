@@ -8,11 +8,11 @@ virtual networks
 
 ##
 
-When Virtual Network NAT is configured on a subnet, all outbound connectivity uses your specified `_____`.
+When Virtual Network NAT is configured on a subnet, all outbound connectivity uses your specified
 
 %
 
-When Virtual Network NAT is configured on a subnet, all outbound connectivity uses your specified **static public IP addresses**.
+static public IP addresses
 
 ##
 

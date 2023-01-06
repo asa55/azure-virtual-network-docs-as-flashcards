@@ -2,12 +2,17 @@
 
 As you build your network in Azure, it is important to keep in mind the following universal design principles:
 
+- Ensure non-`_____` address spaces
+- Your subnets should not cover the `_____` address space of the VNet
+- It is recommended you have `_____` large VNets rather than multiple small VNets
+- Secure your VNets by assigning Network Security Groups (NSGs) to the `_____` beneath them
+
 %
 
-- Ensure non-overlapping address spaces
-- Your subnets should not cover the entire address space of the VNet
-- It is recommended you have fewer large VNets rather than multiple small VNets
-- Secure your VNets by assigning Network Security Groups (NSGs) to the subnets beneath them
+- Ensure non-**overlapping** address spaces
+- Your subnets should not cover the **entire** address space of the VNet
+- It is recommended you have **fewer** large VNets rather than multiple small VNets
+- Secure your VNets by assigning Network Security Groups (NSGs) to the **subnets** beneath them
 
 ##
 
